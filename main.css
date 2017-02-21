@@ -1,0 +1,37 @@
+* {
+	font-family: 'Oswald', sans-serif;
+	box-sizing: border-box;
+}
+
+.title {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	color: white;
+	background: #6799ff;
+	padding: 5px;
+	margin: 0px;
+}
+
+#search-form {
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #404853;
+}
+
+#search-bar {
+	width: 200px;
+}
+
+img {
+	display: inline-block;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
