@@ -4,7 +4,8 @@ function getData(searchTerm, callback) {
 	var query = {
 		part: 'snippet',
 		key: 'AIzaSyAsiEeJm3t2vy-RM-ePonvga20v-NkbhjE',
-		q: searchTerm
+		q: searchTerm,
+		type: 'video'
 	}
 	$.getJSON(youTubeBaseURL, query, callback);
 }
